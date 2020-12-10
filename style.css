@@ -1,0 +1,107 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fullpage {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* /////////////////////////////////// */
+/*//////////NAV BAR START///////////// */
+.navBar {
+  position: fixed;
+  right: 5%;
+  top: 30%;
+}
+
+.nav-list {
+  list-style: none;
+  border: 1px solid white;
+  border-radius: 50px;
+  background-color: darkgray;
+}
+
+.nav-list a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin: 10px 5px 10px;
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    background-image: -webkit-linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+    background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+    transition: .4s;
+    box-shadow: 3px 2px rgba(0,0,0,0.4);
+}
+
+.nav-list a:hover {
+  -webkit-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+
+/* /////////////////////////////////// */
+/*///////// NAV BAR END////////////// */
+
+
+/* /////////////////////////////////// */
+/*/////////LANDING SECTION START////////////// */
+.profile-pic {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  margin: 1em auto 1em;
+}
+
+.about-wrapper {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 1.2rem;
+  width: auto;
+}
+
+.about-wrapper h1 {
+  padding: 1rem;
+}
+
+.about-wrapper p {
+  padding: 0.5rem;
+}
+
+.profile-pic img {
+  /* Picture must maintain aspect ratio of 1.25 */
+  height: 250px;
+  width: 200px;
+}
+
+/* /////////////////////////////////// */
+/*/////////LANDING SECTION END////////////// */
+
+.section {
+  height: 100vh;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+.s1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+  p {
+    font-size: 32px;
+  }
+}
