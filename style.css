@@ -94,13 +94,20 @@ html {
   width: 200px;
 }
 
+.backstory-section {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 4em 2em;
+}
+
 /* /////////////////////////////////// */
 /*/////////LANDING SECTION END////////////// */
 
 /*---------------------------------------------------------*/
 
 /* /////////////////////////////////// */
-/*/////////BACKGROUND SECTION START////////////// */
+/*/////////STACK SECTION START////////////// */
 
 .background-section {
   display: flex;
@@ -170,6 +177,7 @@ html {
   margin-right: 5em;
   list-style: none;
   text-align: center;
+  width: 100%;
 }
 
 .pro-btn {
