@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
@@ -6,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
 }
 
 .fullpage {
@@ -92,6 +95,13 @@ html {
 /* /////////////////////////////////// */
 /*/////////LANDING SECTION END////////////// */
 
+/* /////////////////////////////////// */
+/*/////////CONTACT SECTION START////////////// */
+
+
+/* /////////////////////////////////// */
+/*/////////CONTACT SECTION END////////////// */
+
 .section {
   height: 100vh;
   border: 1px solid black;
@@ -100,6 +110,15 @@ html {
 
 .s1 {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10vh 0 10vh;
+}
+
+.s3 {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
