@@ -151,12 +151,18 @@ html {
 .skill-list {
   list-style: none;
   padding-right: 2rem;
+  padding-top: 2em;
 }
 
-.skill-list li {
-  margin: 10px;
-  font-weight: bold;
+.li{
+  text-decoration: none;
+  line-height: 2rem;
+  transition: all 0.5s ease;
 }
+
+ .li:hover {
+   transform: rotate(360deg);
+ }
 
 .projects-buttons {
   display: flex;
@@ -175,6 +181,7 @@ html {
   box-shadow: 3px 2px rgba(0,0,0,0.4);
   color: white;
   text-decoration: none;
+  transition: all 0.5s;
 }
 
 .pro-btn:hover {
@@ -264,6 +271,8 @@ html {
   border-radius: 15px 50px;
   background-color: #516395;
   box-shadow: 3px 2px rgba(0,0,0,0.4);
+  transition: all 0.5s;
+
 }
 
 .social-button:hover {
