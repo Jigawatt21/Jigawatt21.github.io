@@ -64,6 +64,15 @@ html {
 
 /* /////////////////////////////////// */
 /*/////////LANDING SECTION START////////////// */
+.profile-container {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.profile-container:hover {
+  background-color: lightgray;
+}
 .profile-pic {
   border-radius: 50%;
   height: 200px;
