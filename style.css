@@ -212,6 +212,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  padding: 5rem 0 5rem;
   text-align: center;
 }
 
