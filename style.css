@@ -76,6 +76,7 @@ html {
   display: flex;
   flex-direction: column;
   border: 2px solid black;
+  margin-bottom: 4em;
   padding: 1.2rem;
   width: auto;
 }
@@ -162,6 +163,7 @@ html {
 
 #certifications {
   flex-direction: column;
+  margin-bottom: 4em;
 }
 
 .tokens-list {
