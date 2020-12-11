@@ -25,6 +25,7 @@ html {
   position: fixed;
   right: 5%;
   top: 30%;
+  z-index: 5;
 }
 
 .nav-list {
@@ -158,11 +159,14 @@ html {
   margin: 1.5rem auto 10px;
   border: 3px solid black;
   border-radius: 50%;
-  animation: spin 5s linear infinite;
   background-image: url('https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.png');
   background-size: 15vw;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.rotating {
+  animation: spin 5s linear infinite;
 }
 
 @keyframes spin {
