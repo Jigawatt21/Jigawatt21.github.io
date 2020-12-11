@@ -54,10 +54,26 @@ html {
   -ms-transform: rotate(20deg);
   transform: rotate(20deg);
 }
-
 /* /////////////////////////////////// */
 /*///////// NAV BAR END////////////// */
+.block-right {
+  margin-left: auto;
+  max-width: 50vw;
+}
 
+.block-left {
+  margin-right: auto;
+  max-width: 50vw;
+}
+
+.background-section {
+  display: flex;
+  width: 100%;
+}
+
+.skill-list {
+  list-style: none;
+}
 
 /* /////////////////////////////////// */
 /*/////////LANDING SECTION START////////////// */
