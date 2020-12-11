@@ -65,9 +65,11 @@ html {
 /* /////////////////////////////////// */
 /*/////////LANDING SECTION START////////////// */
 .profile-container {
+  max-width: 80vw;
   background-color: white;
   border-radius: 5px;
   border: 1px solid black;
+  transition: all 1s ease;
 }
 
 .profile-container:hover {
