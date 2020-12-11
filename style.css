@@ -110,12 +110,33 @@ html {
 .block-right {
   margin-right: 2em;
   margin-left: auto;
+  padding: 1rem;
   max-width: 50vw;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+.block-right:hover {
+  background-color: lightgray;
 }
 
 .block-left {
   margin-right: auto;
+  margin-left: 2em;
   max-width: 50vw;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+.block-left:hover {
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 .skills-container {
@@ -172,6 +193,11 @@ html {
 
 .token-container {
   width: 25vw;
+  transition: all 0.5s ease;
+}
+
+.token-container:hover {
+  background-color: rgba(255,140,0, 0.5);
 }
 
 .token-container a {
