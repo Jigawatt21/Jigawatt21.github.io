@@ -27,9 +27,8 @@ html {
 
 .nav-list {
   list-style: none;
-  border: 1px solid white;
-  border-radius: 50px;
-  background-color: darkgray;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .nav-list a {
