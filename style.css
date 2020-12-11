@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .fullpage {
   height: 100%;
   width: 100%;
@@ -99,4 +103,5 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 10vh 0 10vh;
 }
