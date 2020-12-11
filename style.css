@@ -149,6 +149,11 @@ html {
   width: 25vw;
 }
 
+.token-container a {
+  text-decoration: none;
+  color: black;
+}
+
 .token {
   display: flex;
   justify-content: center;
