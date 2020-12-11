@@ -190,7 +190,33 @@ html {
 
 /* /////////////////////////////////// */
 /*/////////CONTACT SECTION START////////////// */
+.contact-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 
+.contact-buttons ul {
+  list-style: none;
+}
+
+.contact-buttons ul a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-button {
+  display: flex;
+  padding: 0.5rem 2rem 0.5rem;
+  margin: 1rem;
+  border-radius: 15px 50px;
+  background-color: #516395;
+  box-shadow: 3px 2px rgba(0,0,0,0.4);
+}
+
+.social-button:hover {
+  background-color: #614385;
+}
 /* /////////////////////////////////// */
 /*/////////CONTACT SECTION END////////////// */
 
@@ -212,7 +238,6 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 5rem 0 5rem;
   text-align: center;
 }
 
