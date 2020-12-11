@@ -76,7 +76,6 @@ html {
   display: flex;
   flex-direction: column;
   border: 2px solid black;
-  margin-bottom: 4em;
   padding: 1.2rem;
   width: auto;
 }
@@ -266,6 +265,7 @@ html {
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
+  padding-top: 4em;
 }
 
 .s3 {
