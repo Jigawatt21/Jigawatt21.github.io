@@ -71,8 +71,44 @@ html {
   width: 100%;
 }
 
+.skills-container {
+  padding-right: 2em;
+}
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
 .skill-list {
   list-style: none;
+  padding-left: 2rem;
+}
+
+.skill-list li {
+  margin: 10px;
+  font-weight: bold;
+}
+
+#certifications {
+  flex-direction: column;
+}
+
+.tokens-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.token-container {
+  width: 25vw;
+}
+
+.token {
+  width: 17vw;
+  height: 17vw;
+  margin: 1.5rem auto 10px;
+  border: 1px solid black;
+  border-radius: 50%;
 }
 
 /* /////////////////////////////////// */
