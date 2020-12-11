@@ -117,7 +117,7 @@ html {
 }
 
 .skills-container {
-  padding-right: 2em;
+  padding-left: 2em;
 }
 .skills {
   display: flex;
@@ -127,7 +127,7 @@ html {
 
 .skill-list {
   list-style: none;
-  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .skill-list li {
@@ -149,16 +149,20 @@ html {
 }
 
 .token {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   width: 17vw;
   height: 17vw;
   margin: 1.5rem auto 10px;
   border: 3px solid black;
   border-radius: 50%;
-  animation: spin 3s linear infinite;
-}
-
-.token i {
-  padding-top: 3rem;
+  animation: spin 5s linear infinite;
+  background-image: url('https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.png');
+  background-size: 15vw;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @keyframes spin {
