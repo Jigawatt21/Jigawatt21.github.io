@@ -136,7 +136,7 @@ html {
 }
 
 .block-right:hover {
-  background-color: lightgray;
+  background-color: darkgray;
 }
 
 .block-left {
@@ -151,7 +151,7 @@ html {
 }
 
 .block-left:hover {
-  background-color: lightgray;
+  background-color: darkgray;;
   border: 1px solid black;
   border-radius: 5px;
 }
@@ -268,6 +268,16 @@ html {
 
 /* /////////////////////////////////// */
 /*/////////CONTACT SECTION START////////////// */
+.coffee-cup-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-left: 2rem;
+  width: 100%;
+}
+
+.coffee-cup-gif {
+  max-width: 20vw;
+}
 .contact-buttons {
   display: flex;
   flex-direction: column;
@@ -280,22 +290,15 @@ html {
 
 .contact-buttons ul a{
   text-decoration: none;
-  color: #fff;
+  color: #000;
+  box-shadow: 3px 2px rgba(0,0,0,0.4);
 }
 
 .social-button {
   display: flex;
   padding: 0.5rem 2rem 0.5rem;
   margin: 1rem;
-  border-radius: 15px 50px;
-  background-color: #516395;
-  box-shadow: 3px 2px rgba(0,0,0,0.4);
-  transition: all 0.5s;
-
-}
-
-.social-button:hover {
-  background-color: #614385;
+  background-color: #e1e1e1;
 }
 /* /////////////////////////////////// */
 /*/////////CONTACT SECTION END////////////// */
@@ -768,4 +771,33 @@ html {
 .hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+/* Bubble Right */
+.hvr-bubble-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.hvr-bubble-right:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  border-style: solid;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  top: calc(50% - 10px);
+  right: 0;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #e1e1e1;
+}
+.hvr-bubble-right:hover:before, .hvr-bubble-right:focus:before, .hvr-bubble-right:active:before {
+  -webkit-transform: translateX(10px);
+  transform: translateX(10px);
 }
