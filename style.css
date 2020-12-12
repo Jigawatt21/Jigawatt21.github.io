@@ -84,6 +84,7 @@ html {
 }
 
 .about-wrapper {
+  background-image: url("img\fractals.jpg");
   display: flex;
   flex-direction: column;
   border: 2px solid black;
