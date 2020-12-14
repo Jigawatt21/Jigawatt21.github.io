@@ -313,6 +313,9 @@ html {
   align-items: center;
   text-align: center;
   padding: 10vh 0 10vh;
+  background: url('img/fractals-1800242_1280.png');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .s2 {
